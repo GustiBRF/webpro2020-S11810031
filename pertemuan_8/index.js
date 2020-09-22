@@ -29,3 +29,11 @@ const getAccountSummary = function(){
 //Menampilkan nilai di funsing getAccountSummary
 getAccountSummary()
 
+let carName = "kija";
+
+function displayCarName(){
+    let carName="honde";
+
+    return "sia" + carName
+}
+console.log(displayCarName())
