@@ -30,3 +30,4 @@ const person = {
 console.log("My Name is " + person.firsN + " " + person.lastN);
 
 console.log(`Hallo ${person.firsN} ${person.lastN} ,umur saya ${person.age}`)
+
