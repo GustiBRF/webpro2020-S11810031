@@ -28,3 +28,20 @@ console.log(rujak())
 const salam = (nama) => `Hi ${nama}`;
 
 console.log(salam("Kenangan, Apa Kabar ?"));
+
+//Exercise
+//Convert to ES6 Syntax
+
+const yearUntiliRetirement = (year,firstName) =>{
+    const age=22;
+    const retire = 65-age;
+
+    if (retire > 0){
+        console.log(`${firstName} retired in ${retire} years` );
+    }
+    else{
+        console.log(`${firstName} is already retired`);
+    }
+}
+
+console.log(yearUntiliRetirement(2060,"Gusti"))
