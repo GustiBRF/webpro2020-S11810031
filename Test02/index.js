@@ -23,15 +23,15 @@ const yearUntilRetriment = (object) => {
 
 // Soal No 2
 
-const addNumber = (a,b,c,d,e,f,g) => {
-    const numbers = [a,b,c,d,e,f,g]
-    const sum=0;
+// const addNumber = (a,b,c,d,e,f,g) => {
+//     const numbers = [a,b,c,d,e,f,g]
+//     const sum=0;
 
-    for(const i=0; i<numbers.length; i++){
-        sum += numbers[i];
-    }
-    return sum;
-}
+//     for(const i=0; i<numbers.length; i++){
+//         sum += numbers[i];
+//     }
+//     return sum;
+// }
 
 
 // Soal No 3
@@ -54,13 +54,13 @@ console.log(`area with radius 21 + ${area21} and area with 7 radius ${area7}`);
 
 // Soal No 4
 
-const makeAjaxRequest = (url,method) =>{
-    if(!method){
-        method ='GET'
-    }
-    console.log(url,method)
-}
-makeAjaxRequest('www.google.com');
+// const makeAjaxRequest = (url,method) =>{
+//     if(!method){
+//         method ='GET'
+//     }
+//     console.log(url,method)
+// }
+// makeAjaxRequest('www.google.com');
 
 //Bagian 2
 
